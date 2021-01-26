@@ -9,4 +9,5 @@ int main(){
     scanf("%f", &height);
     areacone = PI*radius*height;
     printf("Cone area is: %.2f\n", areacone);
+    return 0;
 }

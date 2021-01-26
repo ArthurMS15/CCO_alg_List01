@@ -10,4 +10,5 @@ int main(){
     scanf("%f", &base);
     rectancube = ((height*base)+(height*side)+(base*side))*2;
     printf("Rectangular cube area is: %.2f\n", rectancube);
+    return 0;
 }

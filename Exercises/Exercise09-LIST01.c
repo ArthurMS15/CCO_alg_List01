@@ -7,4 +7,5 @@ int main(){
     scanf("%f", &current_wage);
     adjusted_wage = (current_wage*adjustment) + current_wage;
     printf("Your adjusted wage is: %.2f\n", adjusted_wage);
+    return 0;
 }

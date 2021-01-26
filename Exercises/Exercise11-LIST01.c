@@ -10,4 +10,5 @@ int main(){
     scanf("%f", &nlatedays);
     late_payment = installment+(installment*(tax/100)*nlatedays);
     printf("Late payment value is: %.2f\n", late_payment);
+    return 0;
 }

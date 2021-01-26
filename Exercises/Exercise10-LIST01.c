@@ -11,4 +11,5 @@ int main(){
     gross_wage = nhs*vhs;
     net_wage = gross_wage-(gross_wage*inss);
     printf("Your net wage is: %.2f\n", net_wage);
+    return 0;
 }

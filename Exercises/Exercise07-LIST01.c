@@ -10,5 +10,5 @@ int main(){
     scanf("%f", &height);
     conevol = (PI*pow(radius,2)*height)/3;
     printf("Cone volume is: %.2f\n", conevol);
-
+    return 0;
 }

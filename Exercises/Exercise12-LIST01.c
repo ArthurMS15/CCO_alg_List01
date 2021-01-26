@@ -12,4 +12,5 @@ int main(){
     scanf("%f", &n4);
     avg = (n1+n2+n3+n4)/4;
     printf("The average between all these numbers is: %.2f\n", avg);
+    return 0;
 }

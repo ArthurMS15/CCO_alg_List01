@@ -8,4 +8,5 @@ int main(){
     scanf("%f", &radius);
     spherevol = 4/3*PI*pow(radius,3);
     printf("Sphere volume is: %.2f\n", spherevol);
+    return 0;
 }
