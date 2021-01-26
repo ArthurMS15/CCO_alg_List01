@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 
 int main(){
     char seller_name [100];
