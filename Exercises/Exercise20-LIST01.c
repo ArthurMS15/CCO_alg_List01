@@ -10,4 +10,5 @@ int main (){
     } else {
         printf("%.2f and %.2f", n1, n2);
     }
+    return 0;
 }

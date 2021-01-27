@@ -15,4 +15,5 @@ int main(){
         printf("%d", n2);
     } else
         printf("%d", n3);
+    return 0;
 }

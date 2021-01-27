@@ -11,4 +11,5 @@ int main(){
     } else {
         printf("%.2f", n2);
     }
+    return 0;
 }
