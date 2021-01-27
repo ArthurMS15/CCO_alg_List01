@@ -4,12 +4,14 @@ int main (){
     int cpf, ndep, min_wage;
     float monthly_rent, disc_p, net_income, aliq, income_tax, discount;
     min_wage = 937;
+
     printf("Enter your cpf:\n");
     scanf("%d", &cpf);
     printf("Enter your number of dependents:\n");
     scanf("%d", &ndep);
     printf("Enter your monthly rent:\n");
     scanf("%f", &monthly_rent);
+
     net_income = monthly_rent/min_wage;
     if (ndep >= 3){
         ndep = 3;
@@ -51,4 +53,6 @@ int main (){
     } else {
         printf("The person would have to pay an income tax of: %.2f reais", income_tax);
     }
+    
+    return 0;
 }

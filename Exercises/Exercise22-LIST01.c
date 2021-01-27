@@ -2,6 +2,7 @@
 
 int main(){
      int a, b, c, sum;
+
      printf("Enter the first value:\n");
      scanf("%d", &a);
      printf("Enter the second value:\n");
@@ -15,7 +16,7 @@ int main(){
     if (a < b && a < c) sum = b + c;
     if (a < c && a > b) sum = a + c;
     if (a < c && a < b) sum = c + b;
-
     printf("Sum is: %d", sum);
+    
     return 0;
 }
