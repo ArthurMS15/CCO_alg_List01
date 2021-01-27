@@ -45,7 +45,7 @@ int main (){
     }
     income_tax = (monthly_rent*aliq);
     discount = disc_p*min_wage;
-    income_tax = income_tax - discount;
+    income_tax = income_tax-discount;
     if (income_tax <= 0){
         printf("The person is exempt");
     } else {
