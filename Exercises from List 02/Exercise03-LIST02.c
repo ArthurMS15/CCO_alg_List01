@@ -22,4 +22,5 @@ int main (){
         stop++;
     }
     printf("Quantity of negative values: %d\n", vnegquant);
+    return 0;
 }

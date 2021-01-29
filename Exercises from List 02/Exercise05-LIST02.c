@@ -2,7 +2,7 @@
 
 int main(){
     int n, cont;
-    double e;
+    double e, fat;
     printf("Insert n value (int):\n");
     scanf("%d", &n);
     if(n<=0){
@@ -11,9 +11,12 @@ int main(){
     cont=1;
     e=1;
     while(cont<=n){
-        e=e+(1.0/(float)cont);
+        fat=cont;
+        for(int i=fat-1;i>1;i--){
+            fat=fat*i;
+        }
+        e=e+(1.0/fat);
         cont++;
     }
     printf("E value is: %.2f\n", e);
-    return 0;
 }
