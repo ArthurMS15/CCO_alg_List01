@@ -16,7 +16,7 @@ int main(){
         } else {
             printf("Invalid number\n");
         }
-    } while ((player1<5 && player2<5) || (abs(player1-player2)<2));
+    } while ((player1<21 && player2<21) || (abs(player1-player2)<2));
 
     printf("Result:\nPlayer 1: %d\tPlayer 2: %d\n", player1, player2);
     if(player1>player2){
