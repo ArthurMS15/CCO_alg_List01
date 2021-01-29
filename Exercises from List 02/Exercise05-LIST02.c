@@ -19,4 +19,5 @@ int main(){
         cont++;
     }
     printf("E value is: %.2f\n", e);
+    return 0;
 }
