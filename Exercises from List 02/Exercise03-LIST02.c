@@ -9,7 +9,7 @@ int main (){
         scanf("%d", &negvalue);
         if (negvalue < 0){
             printf("Negative value\n");
-            vnegquant = vnegquant + 1;
+            vnegquant++;
         }
         if (negvalue > 0){
             printf("Positive value\n");
@@ -19,7 +19,7 @@ int main (){
             printf("Quantity of negative values: %d\n", vnegquant);
             stop = stop - stop;   
         }
-        stop = stop + 1;
+        stop++;
     }
     printf("Quantity of negative values: %d\n", vnegquant);
 }
