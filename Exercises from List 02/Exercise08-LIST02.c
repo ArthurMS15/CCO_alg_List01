@@ -61,4 +61,5 @@ int main (){
     printf("Quantity of votes for candidate 4: %d\n", c4);
     printf("Quantity of null votes: %d\n", nullvote);
     printf("Quantity of white votes: %d\n", whitevote);
+    return 0;
 }
