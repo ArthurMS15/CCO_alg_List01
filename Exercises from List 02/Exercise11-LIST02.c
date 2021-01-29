@@ -9,4 +9,5 @@ int main(){
         count++;
     }
     printf("The sum of all first 100 natural numbers is: %d\n", sum);
+    return 0;
 }

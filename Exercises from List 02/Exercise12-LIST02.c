@@ -9,4 +9,5 @@ int main(){
             printf("%d\t", div);
         }
     }
+    return 0;
 }

@@ -20,4 +20,5 @@ int main(){
         avgeven=avgeven/cont;
         printf("Average of even numbers is: %.2f", avgeven);
     }
+    return 0;
 }
