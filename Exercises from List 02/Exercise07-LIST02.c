@@ -23,4 +23,5 @@ int main (){
     }
     sum = (a1_1 + generalterm)*n/2;
     printf("Sum: %.2f\n", sum);
+    return 0;
 }

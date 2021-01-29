@@ -10,4 +10,5 @@ int main(){
         cont++;
     }
     printf("Z is going to be more taller than J in approximately %d years\n", cont);
+    return 0;
 }
