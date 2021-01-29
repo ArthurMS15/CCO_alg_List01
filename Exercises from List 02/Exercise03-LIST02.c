@@ -10,9 +10,11 @@ int main(){
         if(vneg<0){
             printf("Negative value\n");
             vnegquant = vnegquant +1;
-        } else if (vneg>0){
+        } 
+        if (vneg>0){
             printf("Positive value\n");
-        } else if (vneg==0){
+        } 
+        if (vneg==0){
             printf("Stopped\n");
             printf("Quantity of negative values: %d\n", vnegquant);
             stop=stop-stop;
