@@ -12,7 +12,7 @@ int main(){
     if (avg>=7){
        printf("Approved student!, note: %.2f\n", avg);
     } else {
-        printf("Reproved student!, note: %.2f\n", avg);
+        printf("Disapproved student!, note: %.2f\n", avg);
     }
     
     return 0;
