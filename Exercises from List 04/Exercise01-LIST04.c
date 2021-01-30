@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define SIZE 10
 
 int main(){
-    int vect[10], count=0;
+    int vect[SIZE], count=0;
     
-    for(int i=0;i<10;i++){
+    for(int i=0;i<SIZE;i++){
         vect[i]=rand()%30;
+        //scanf("%d", &vect[i]); 
+        //Writing or generating randomly
     }
     printf("Vector:");
     for(int i=0;i<10;i++){
@@ -19,7 +22,7 @@ int main(){
             count++;
         }
     }
-    if(count==10){
+    if(count==SIZE){
         printf("There is no value higher than 20\n");
     }
 
