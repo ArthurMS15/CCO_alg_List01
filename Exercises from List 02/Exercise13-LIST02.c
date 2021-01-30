@@ -7,6 +7,7 @@ int main(){
     int countodd=0;
     int countpositive=0;
     int countnegative=0;
+
     for(int i=0;i<5;i++){
         printf("Insert a value:\n");
         scanf("%d", &a);
@@ -28,5 +29,6 @@ int main(){
     printf("Quantity of odd numbers: %d\n", countodd);
     printf("Quantity of positive numbers: %d\n", countpositive);
     printf("Quantity of negative numbers: %d\n", countnegative);
+    
     return 0;
 }

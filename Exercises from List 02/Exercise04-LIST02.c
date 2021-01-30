@@ -3,6 +3,7 @@
 int main(){
     int n, cont;
     double e;
+
     printf("Insert n value (int):\n");
     scanf("%d", &n);
     if(n<=0){
@@ -15,5 +16,6 @@ int main(){
         cont++;
     }
     printf("E value is: %.2f\n", e);
+    
     return 0;
 }

@@ -3,6 +3,7 @@
 int main(){
     float net_wage, gross_wage, nhours, count, income_tax, charges, additional, extrahours, total;
     count=0;
+
     while(count<1){
         printf("Insert your gross wage:\n");
         scanf("%f", &gross_wage);
@@ -28,4 +29,6 @@ int main(){
         }
     }
     printf("All net wages: %.2f\n", total);
+    
+    return 0;
 }

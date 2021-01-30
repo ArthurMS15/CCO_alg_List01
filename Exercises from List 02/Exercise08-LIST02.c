@@ -10,6 +10,7 @@ int main (){
     c4 = 0;
     nullvote = 0;
     whitevote = 0;
+
     while (cont < totalvotes){
         printf("Vote for which candidate you want to vote:\n");
         printf("Type 1 for candidate 1\n");
@@ -61,5 +62,6 @@ int main (){
     printf("Quantity of votes for candidate 4: %d\n", c4);
     printf("Quantity of null votes: %d\n", nullvote);
     printf("Quantity of white votes: %d\n", whitevote);
+    
     return 0;
 }

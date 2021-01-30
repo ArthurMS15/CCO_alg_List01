@@ -10,6 +10,7 @@ int main(){
     yourwage100 = 0;
     count = 0;
     count2 = 0;
+
     do{
         printf("Insert your wage:\n");
         scanf("%f", &yourwage);
@@ -42,5 +43,6 @@ int main(){
         printf("The highest wage of all is: %.2f\n", highwage);
         printf("Pecentage of people with a wage lowest or equal to 100 in relation with total wages is:: %.2f\n", avg100);
     }
+    
     return 0;
 }

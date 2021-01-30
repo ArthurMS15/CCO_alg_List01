@@ -4,6 +4,7 @@ int main (){
     int negvalue, stop, vnegquant;
     stop = 0;
     vnegquant = 0;
+
     while (stop <= 20){
         printf("Insert a value (int):\n");
         scanf("%d", &negvalue);
@@ -22,5 +23,6 @@ int main (){
         stop++;
     }
     printf("Quantity of negative values: %d\n", vnegquant);
+    
     return 0;
 }

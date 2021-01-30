@@ -23,5 +23,6 @@ int main (){
     printf("Highest height is: %.2f\n", high);
     printf("Average height is: %.2f\n", avg);
     printf("Number of people higher than 2 meters: %d", n2meters);
+    
     return 0;
 }

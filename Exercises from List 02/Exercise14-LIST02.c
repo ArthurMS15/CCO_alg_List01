@@ -24,5 +24,6 @@ int main(){
     } else {
         printf("Player 2 wins\n");
     }
+    
     return 0;
 }

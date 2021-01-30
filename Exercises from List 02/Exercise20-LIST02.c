@@ -26,4 +26,6 @@ int main(){
     avgatotal=avgatotal/count2;
     printf("Average weight in total:\n", avgwtotal);
     printf("Average age in total:\n", avgatotal);
+
+    return 0;
 }

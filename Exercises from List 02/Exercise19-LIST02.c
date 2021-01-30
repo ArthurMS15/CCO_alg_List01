@@ -3,6 +3,7 @@
 int main(){
     float note1, note2, avgst, avgtotal;
     int totalap=0, totaldp=0, count=0;
+
     for(int i=0;i<6;i++){
         printf("Insert the first note of the student:\n");
         scanf("%f", &note1);
@@ -24,4 +25,6 @@ int main(){
     printf("Number of all approved students: %d\n", totalap);
     printf("Number of all disapproved students: %d\n", totaldp);
     printf("Total average (of all students): %.2f\n", avgtotal);
+
+    return 0;
 }

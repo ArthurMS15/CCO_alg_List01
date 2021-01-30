@@ -2,6 +2,7 @@
 
 int main (){
     float n, a1, a1_1, r, sum, generalterm, cont;
+
     printf("Indicate the value of the number of terms of the arithmetic progression (n):\n");
     scanf("%f", &n);
     printf("Indicate the value of the first term of the progression (a1):\n");
@@ -23,5 +24,6 @@ int main (){
     }
     sum = (a1_1 + generalterm)*n/2;
     printf("Sum: %.2f\n", sum);
+    
     return 0;
 }

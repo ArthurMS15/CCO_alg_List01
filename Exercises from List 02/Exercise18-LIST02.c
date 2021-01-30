@@ -3,6 +3,7 @@
 int main(){
     int age, sex, exp, count=0, countm=0, countf=0, women35=0, minfexp=1000;
     float avgmenage=0, percentage45=0;
+
     while(count<1){
         printf("How old are you?\n");
         scanf("%d", &age);
@@ -40,4 +41,6 @@ int main(){
     printf("Percentage of men older than 45 years old among all men: %.2f\n", percentage45);
     printf("Number of women younger than 35 years old with experience: %d\n", women35);
     printf("Minimum age among all women with experience: %d\n", minfexp);
+    
+    return 0;
 }

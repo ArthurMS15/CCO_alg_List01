@@ -7,6 +7,7 @@ int main(){
     n=0;
     avgeven=0;
     count=0;
+
     do{
         printf("Insert a number (int):\n");
         scanf("%d", &n);
@@ -20,5 +21,6 @@ int main(){
         avgeven=avgeven/count;
         printf("Average of even numbers is: %.2f", avgeven);
     }
+    
     return 0;
 }
