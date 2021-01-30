@@ -3,7 +3,7 @@
 
 int main(){
     int vect1[SIZE], vect2[SIZE], vect3[SIZE*2];
-    int aux=0;
+    int count=1;
     for(int i=0;i<SIZE;i++){
         vect1[i]=rand()%30;
         vect2[i]=rand()%30;
@@ -17,16 +17,19 @@ int main(){
         printf("%d\t", vect2[i]);
     }
     printf("\nVector 3:\t");
-    for(int i=0;i<SIZE;i++){
-        aux=i;
-        if(i%2==0){
+    for(int i=0;i<SIZE*2;i++){
+        if(i==0){
             vect3[i]=vect1[i];
+            vect3[i+1]=vect2[i];
         } else {
-            aux--;
-            vect3[aux]=vect2[aux];
+            vect3[i]=vect1[i-(1*count)];
+            vect3[i+1]=vect2[i-(1*count)];
+            count++;
         }
+        i++;
     }
     for(int i=0;i<SIZE*2;i++){
         printf("%d\t", vect3[i]);
     }
+    return 0;
 }
