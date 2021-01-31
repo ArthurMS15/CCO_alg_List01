@@ -8,6 +8,7 @@ int main (){
 	char quest[SIZE];
 	int count[SIZE];
 	int s, q;
+
 	for(q=0;q<SIZE;q++){
 		printf("(Teacher) Type the correct answer for the question %d:\n", q+1);
 		scanf("%s", &quest[q]);
@@ -25,4 +26,6 @@ int main (){
 	for (s=0;s<SIZE;s++){
 		printf ("Student: %d\tCorrect responses:%d\n", s, count[s]);
 	}
+
+	return 0;
 }

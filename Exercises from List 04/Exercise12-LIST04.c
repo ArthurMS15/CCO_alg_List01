@@ -25,4 +25,6 @@ int main(){
     }
     printf("Value of upper left corner: %.2f\n", upperleftcorner);
     printf("Value of lower left corner: %.2f\n", lowerleftcorner);
+
+    return 0;
 }

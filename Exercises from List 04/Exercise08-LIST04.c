@@ -30,5 +30,6 @@ int main(){
 
     avgeven=avgeven/(float)count;
     printf("Average (considering just the quantity of even numbers):\t%.2f\n", avgeven);
+    
     return 0;
 }

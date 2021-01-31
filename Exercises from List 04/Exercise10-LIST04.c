@@ -40,5 +40,6 @@ int main(){
     printf("Sum of all numbers in principal diagonal: %d\n", sumdiagprinc);
     printf("Sum of all numbers in secondary diagonal: %d\n", sumdiagsec);
     printf("Sum of all numbers in the array: %d\n", sumall);
+    
     return 0;
 }

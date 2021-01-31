@@ -3,6 +3,7 @@
 
 int main(){
     int vect[SIZE];
+
     for(int i=0;i<SIZE;i++){
         //vect[i]=rand()%SIZE;
         scanf("%d", &vect[i]); //Writing or generating randomly
@@ -16,5 +17,6 @@ int main(){
             printf("%d\t", vect[i]);
         }
     }
+    
     return 0;
 }

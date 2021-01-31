@@ -3,6 +3,7 @@
 
 int main(){
     int vect[N], sum=0;
+
     for(int i=0;i<N;i++){
         vect[i]=rand()%N;
     }
@@ -14,5 +15,5 @@ int main(){
     }
     printf("\nSum with all even numbers: %d\n", sum);
 
-
+    return 0;
 }

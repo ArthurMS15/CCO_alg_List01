@@ -3,14 +3,17 @@
 
 int main(){
     int vectn[N];
+
     for(int i=0;i<N;i++){
         printf("Type the %d value for the vector:\n", i+1);
         scanf("%d", &vectn[i]);
     }
     printf("\nVector n:");
+
     int vectx[N], vecty[N];
     int x1=0;
     int y1=0;
+
     for(int i=0;i<N;i++){
         printf("%d\t", vectn[i]);
         if(vectn[i]%2==0 && vectn[i]%3==0){
@@ -30,4 +33,5 @@ int main(){
         printf("%d\t", vecty[i]);
     }
 
+    return 0;
 }

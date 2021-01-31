@@ -19,4 +19,6 @@ int main(){
     for(int i=SIZE-1;i>=0;i--){
         printf("%d\t", age[i]);
     }
+
+    return 0;
 }

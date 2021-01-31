@@ -4,12 +4,12 @@
 
 int main(){
     int array[LINES][COLUMNS], min=0, max=0, line, column;
+
     for(int i=0;i<LINES;i++){
         for(int j=0;j<COLUMNS;j++){
             array[i][j]=rand()%30;
         }
     }
-
     printf("Array:\n");
     for(int i=0;i<LINES;i++){
         for(int j=0;j<COLUMNS;j++){
@@ -35,5 +35,6 @@ int main(){
         }
     }
     printf("The lowest value of the array is: %d\t Position: %d, %d\n", min, line, column);
+    
     return 0;
 }

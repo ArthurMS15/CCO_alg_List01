@@ -32,5 +32,6 @@ int main(){
             printf("Student: %s\t got the lowest note: %.2f\n", array[i], note[i]);
         }
     }
+    
     return 0;
 }

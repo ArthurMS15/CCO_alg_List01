@@ -4,6 +4,7 @@
 int main(){
     int vect1[SIZE], vect2[SIZE], vect3[SIZE*2];
     int count=1;
+
     for(int i=0;i<SIZE;i++){
         vect1[i]=rand()%30;
         vect2[i]=rand()%30;
@@ -31,5 +32,6 @@ int main(){
     for(int i=0;i<SIZE*2;i++){
         printf("%d\t", vect3[i]);
     }
+    
     return 0;
 }
